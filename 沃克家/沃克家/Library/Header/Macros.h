@@ -25,7 +25,7 @@
 // 字体
 #pragma mark - font
 
-#define FontWithNameSize(name, size)    [UIFont fontWithName:name size:size]
+#define FontWithNameSize(name, size)    [UIFont fontWithName:@"AppleGothic" size:size]
 #define FontWithSize(size)              [UIFont systemFontOfSize:size]
 #define ScoreFontWithSize(fontSize)     [UIFont fontWithName:@"Bradley Hand" size:fontSize]
 #define BoldFontWithSize(size)          [UIFont boldSystemFontOfSize:size]

@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PrefixHeader.pch"
+#import "WKJTableViewCell.h"
 
 @interface WKJUserCenterController : UIViewController
 

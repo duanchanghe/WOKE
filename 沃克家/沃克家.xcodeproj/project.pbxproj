@@ -20,6 +20,7 @@
 		B74048841DF1358500E91A77 /* WKJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74048831DF1358500E91A77 /* WKJTabBarController.m */; };
 		B74048871DF135B200E91A77 /* WKJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74048861DF135B200E91A77 /* WKJNavigationController.m */; };
 		CC0E345855422CDCB63FECDA /* libPods-沃克家.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DD67679983ECE90E6B7D82 /* libPods-沃克家.a */; };
+		CCF557CF1DF15B46007B9C04 /* WKJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF557CE1DF15B46007B9C04 /* WKJTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		B74048891DF1385200E91A77 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		B740488A1DF13D7900E91A77 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		B740488B1DF13D8D00E91A77 /* Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Size.h; sourceTree = "<group>"; };
+		CCF557CD1DF15B46007B9C04 /* WKJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJTableViewCell.h; sourceTree = "<group>"; };
+		CCF557CE1DF15B46007B9C04 /* WKJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJTableViewCell.m; sourceTree = "<group>"; };
 		F89E3D3376E2252FCE929D55 /* Pods-沃克家.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-沃克家.release.xcconfig"; path = "Pods/Target Support Files/Pods-沃克家/Pods-沃克家.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,7 +177,7 @@
 			children = (
 				B74048591DF128CB00E91A77 /* Controller */,
 				B740485A1DF128CB00E91A77 /* Model */,
-				B740485B1DF128CB00E91A77 /* View */,
+				CCF557CC1DF15B37007B9C04 /* View */,
 			);
 			path = "个人";
 			sourceTree = "<group>";
@@ -193,13 +196,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		B740485B1DF128CB00E91A77 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		B740485C1DF128CB00E91A77 /* 购物车 */ = {
@@ -373,6 +369,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CCF557CC1DF15B37007B9C04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCF557CD1DF15B46007B9C04 /* WKJTableViewCell.h */,
+				CCF557CE1DF15B46007B9C04 /* WKJTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -503,6 +508,7 @@
 				B740487B1DF134E300E91A77 /* WKJCategoryController.m in Sources */,
 				B74048871DF135B200E91A77 /* WKJNavigationController.m in Sources */,
 				B74048841DF1358500E91A77 /* WKJTabBarController.m in Sources */,
+				CCF557CF1DF15B46007B9C04 /* WKJTableViewCell.m in Sources */,
 				B74048781DF134B700E91A77 /* WKJTopicController.m in Sources */,
 				B74048751DF1341800E91A77 /* WKJHomePageController.m in Sources */,
 				B74048811DF1355C00E91A77 /* WKJUserCenterController.m in Sources */,

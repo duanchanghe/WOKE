@@ -19,7 +19,7 @@
 #define NavigationBarColor                  ColorWithRGBA(250, 250, 250, 1) //
 
 //个人中心头部颜色(实际上是一张图片)
-#define PersonalCenterHeaderColor           ColorWithRGBA(244, 244, 244, 1)
+#define PersonalCenterHeaderColor  [UIColor colorWithRed:0.118 green:0.118 blue:0.118 alpha:1.00]
 
 //Tabbar文字颜色
 #define TabbarRedColor                      ColorWithRGBA(206, 119, 123, 1) //
